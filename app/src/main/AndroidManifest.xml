@@ -7,7 +7,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.pb.xiaomimarketbypass.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Bypass de compatibilidade para o Xiaomi Market em ROMs AOSP/crDroid" />
+            android:value="Mod LSPosed para Bilibili" />
         <meta-data
             android:name="xposedminversion"
             android:value="93" />

@@ -4,10 +4,10 @@ plugins {
 
 android {
     compileSdk 34
-    namespace "com.pb.xiaomimarketbypass"
+    namespace "com.pb.bilibilimod"
 
     defaultConfig {
-        applicationId "com.pb.xiaomimarketbypass"
+        applicationId "com.pb.bilibilimod"
         minSdk 26
         targetSdk 34
         versionCode 1

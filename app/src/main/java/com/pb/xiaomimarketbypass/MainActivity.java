@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.TextView;
 
+import com.pb.bilibilimod.R;
+
 public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

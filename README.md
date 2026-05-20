@@ -1,43 +1,24 @@
-# Xiaomi Market Bypass
+# BilibiliMod
 
-LSPosed module for running Xiaomi Market on AOSP/crDroid ROMs.
+Modulo LSPosed para ajustar o app Bilibili (`tv.danmaku.bili`).
 
-The module targets `com.xiaomi.market` and patches the compatibility gaps that make recent Xiaomi Market builds misbehave outside MIUI/HyperOS. It was developed and tested on Xiaomi Redmi Note 13 4G (`sapphire`) running crDroid Android 16.
+## Funcoes
 
-## What it fixes
+- Forca o `RegionManager` do Bilibili a tratar a regiao como China (`CN`).
+- Restaura o acesso ao menu de categorias pelo item `bilibili://main/top_category`.
+- Define preferencia de legenda para portugues quando o pedido de legenda nao traz idioma preferido.
+- Mostra diagnosticos de legendas e traducao no logcat com a tag `BilibiliMod`.
+- Traduz titulos de videos na pagina de categorias usando o endpoint interno `TranslationMoss` do proprio Bilibili.
 
-- Missing MIUI framework classes and methods used by Xiaomi Market.
-- Xiaomi Market identity/storage compatibility checks that crash or block flows on AOSP.
-- Blocked `Settings.Secure` writes that are not valid for a normal third-party app.
-- PackageInstaller confirmation started from the background on modern Android.
-- Stuck installs after a committed install session when the Market UI was backgrounded.
+## Uso
 
-## Tested behavior
+1. Instale o APK do modulo.
+2. Ative o modulo no LSPosed.
+3. Coloque somente `tv.danmaku.bili` no escopo.
+4. Force o fechamento do Bilibili e abra novamente.
 
-The current build was validated with Xiaomi Market downloading and installing TikTok Lite/Douyin Lite. The failing path was:
+## Observacoes
 
-1. Xiaomi Market finished the download.
-2. Android blocked the install confirmation activity because Market was in the background.
-3. Market stayed stuck at 100% / installing.
-
-The module now defers the pending PackageInstaller intent until Market returns to the foreground, retries the committed-but-uninstalled task, and lets Market receive the normal install-finished callback.
-
-## Requirements
-
-- Android with LSPosed.
-- Xiaomi Market installed as `com.xiaomi.market`.
-- Enable this module for Xiaomi Market in LSPosed, then force stop or reboot before testing.
-
-## Build
-
-Use Android Gradle Plugin from this project with a local Gradle 8.2+ install:
-
-```bash
-gradle assembleDebug
-```
-
-The debug APK is generated at:
-
-```text
-app/build/outputs/apk/debug/app-debug.apk
-```
+- A traducao dos titulos da pagina de categorias e feita no caminho de renderizacao que funciona nessa tela Compose. Isso pode causar atraso inicial ao abrir uma categoria.
+- O modulo nao grava cache persistente de traducoes.
+- Evite escopar o Bilibili em outro modulo que tenha hooks iguais para nao duplicar comportamento.

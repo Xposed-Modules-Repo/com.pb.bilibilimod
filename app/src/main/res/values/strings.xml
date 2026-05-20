@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Xiaomi Market Bypass</string>
-    <string name="status_title">Xiaomi Market Bypass</string>
-    <string name="status_text">Ative este modulo no LSPosed para corrigir o Xiaomi Market em ROMs AOSP/crDroid.</string>
+    <string name="app_name">BilibiliMod</string>
+    <string name="status_title">BilibiliMod</string>
+    <string name="status_text">Ative este modulo no LSPosed e escopo tv.danmaku.bili.</string>
 </resources>
