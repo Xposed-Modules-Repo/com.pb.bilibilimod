@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">BilibiliMod</string>
     <string name="status_title">BilibiliMod</string>
-    <string name="status_text">LSPosed module for Bilibili. Enable it in LSPosed and select the tv.danmaku.bili scope.</string>
-    <string name="donate_button">Donate / support the project</string>
+    <string name="status_text">Modulo LSPosed para Bilibili. Ative no LSPosed e selecione o escopo tv.danmaku.bili.</string>
+    <string name="donate_button">Donate / apoiar o projeto</string>
     <string name="donate_url">https://github.com/pbzin</string>
 </resources>
