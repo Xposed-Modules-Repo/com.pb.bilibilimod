@@ -17,6 +17,9 @@ Modulo LSPosed para ajustar o app Bilibili (`tv.danmaku.bili`).
 3. Coloque somente `tv.danmaku.bili` no escopo.
 4. Force o fechamento do Bilibili e abra novamente.
 
+> [!IMPORTANT]
+> Na primeira abertura do Bilibili apos instalar/ativar o modulo, use uma VPN chinesa. Se o app for aberto sem VPN nessa primeira vez, ele pode ocultar as categorias e elas so voltam depois de limpar os dados do Bilibili.
+
 ## Observacoes
 
 - A traducao dos titulos da pagina de categorias e feita no caminho de renderizacao que funciona nessa tela Compose. Isso pode causar atraso inicial ao abrir uma categoria.

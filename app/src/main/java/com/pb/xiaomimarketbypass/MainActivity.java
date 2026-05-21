@@ -51,6 +51,15 @@ public class MainActivity extends Activity {
         content.addView(status, new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
+        TextView firstLaunchWarning = new TextView(this);
+        firstLaunchWarning.setGravity(Gravity.CENTER);
+        firstLaunchWarning.setPadding(dp(12), dp(10), dp(12), dp(18));
+        firstLaunchWarning.setText(R.string.first_launch_warning);
+        firstLaunchWarning.setTextColor(Color.rgb(255, 224, 174));
+        firstLaunchWarning.setTextSize(14);
+        content.addView(firstLaunchWarning, new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+
         TextView donateMessage = new TextView(this);
         donateMessage.setGravity(Gravity.CENTER);
         donateMessage.setPadding(0, 0, 0, dp(14));

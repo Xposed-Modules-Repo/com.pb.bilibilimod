@@ -3,6 +3,7 @@
     <string name="app_name">BilibiliMod</string>
     <string name="status_title">BilibiliMod</string>
     <string name="status_text">适用于 Bilibili 的 LSPosed 模块。请在 LSPosed 中启用它，并选择 tv.danmaku.bili 作用域。</string>
+    <string name="first_launch_warning">重要：启用本模块后，第一次打开 Bilibili 时请使用中国 VPN。如果第一次没有使用 VPN，Bilibili 可能会隐藏分区分类，通常只能清除应用数据后恢复。</string>
     <string name="donate_message">我没有稳定收入，只是在空闲时间凭兴趣维护这个项目。如果这个模块帮到了你，任何支持都能让项目继续下去，也对我意义很大。</string>
     <string name="donate_button">捐助</string>
     <string name="donate_url">https://github.com/pbzin</string>

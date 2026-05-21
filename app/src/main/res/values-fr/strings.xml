@@ -3,6 +3,7 @@
     <string name="app_name">BilibiliMod</string>
     <string name="status_title">BilibiliMod</string>
     <string name="status_text">Module LSPosed pour Bilibili. Activez-le dans LSPosed et selectionnez le scope tv.danmaku.bili.</string>
+    <string name="first_launch_warning">Important : au premier lancement de Bilibili apres activation de ce module, utilisez un VPN chinois. Si vous l\'ouvrez d\'abord sans VPN, Bilibili peut masquer les categories et elles ne reviennent generalement qu\'apres effacement des donnees de l\'app.</string>
     <string name="donate_message">Je n\'ai pas de revenu stable et je fais ce projet par plaisir sur mon temps libre. Si ce module vous aide, tout soutien garde le projet en vie et compte beaucoup pour moi.</string>
     <string name="donate_button">Faire un don</string>
     <string name="donate_url">https://github.com/pbzin</string>
