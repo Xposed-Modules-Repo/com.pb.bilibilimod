@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BilibiliMod</string>
+    <string name="status_title">BilibiliMod</string>
+    <string name="status_text">Bilibili용 LSPosed 모듈입니다. LSPosed에서 활성화하고 tv.danmaku.bili 범위를 선택하세요.</string>
+    <string name="donate_message">저는 안정적인 수입이 없고, 여가 시간에 재미로 이 프로젝트를 만들고 있습니다. 이 모듈이 도움이 되었다면 작은 후원도 프로젝트를 계속 유지하는 데 큰 힘이 됩니다.</string>
+    <string name="donate_button">후원하기</string>
+    <string name="donate_url">https://github.com/pbzin</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BilibiliMod</string>
+    <string name="status_title">BilibiliMod</string>
+    <string name="status_text">適用於 Bilibili 的 LSPosed 模組。請在 LSPosed 中啟用它，並選擇 tv.danmaku.bili 作用域。</string>
+    <string name="donate_message">我沒有穩定收入，只是在空閒時間憑興趣維護這個專案。如果這個模組幫到了你，任何支持都能讓專案繼續下去，也對我意義很大。</string>
+    <string name="donate_button">捐助</string>
+    <string name="donate_url">https://github.com/pbzin</string>
+</resources>

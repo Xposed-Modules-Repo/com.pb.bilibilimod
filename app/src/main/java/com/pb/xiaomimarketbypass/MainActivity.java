@@ -51,6 +51,15 @@ public class MainActivity extends Activity {
         content.addView(status, new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
+        TextView donateMessage = new TextView(this);
+        donateMessage.setGravity(Gravity.CENTER);
+        donateMessage.setPadding(0, 0, 0, dp(14));
+        donateMessage.setText(R.string.donate_message);
+        donateMessage.setTextColor(Color.rgb(235, 235, 242));
+        donateMessage.setTextSize(14);
+        content.addView(donateMessage, new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+
         Button donate = new Button(this);
         donate.setText(R.string.donate_button);
         donate.setAllCaps(false);
