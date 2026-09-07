@@ -1,8 +1,10 @@
-[![Repo Views](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fpbzin%2FBilibiliMod&label=repo%20views&countColor=%230e75b6&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fpbzin%2FBilibiliMod)
+[![Repo Views](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fpbzin%2FBilibiliMod&label=repo%20views&countColor=%230e75b6&style=flat)](https://github.com/pbzin/BilibiliMod)
+[![Repo Views LSPosed](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FXposed-Modules-Repo%2Fcom.pb.bilibilimod&label=repo%20views%20lsposed&countColor=%230e75b6&style=flat)](https://github.com/Xposed-Modules-Repo/com.pb.bilibilimod)
 
-![Downloads](https://img.shields.io/github/downloads/pbzin/BilibiliMod/total?style=flat&color=0e75b6&label=downloads)
+[![Downloads](https://img.shields.io/github/downloads/pbzin/BilibiliMod/total?style=flat&color=0e75b6&label=downloads)](https://github.com/pbzin/BilibiliMod/releases)
+[![Downloads LSPosed](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.pb.bilibilimod/total?style=flat&color=0e75b6&label=downloads%20lsposed)](https://github.com/Xposed-Modules-Repo/com.pb.bilibilimod/releases)
 
-# BilibiliMod
+# BiliBiliMod
 
 LSPosed module for foreign Bilibili users (`tv.danmaku.bili`).
 
@@ -14,7 +16,7 @@ It forces Bilibili to treat the app as the CN version/region and unlocks hidden 
 - Restores access to hidden video categories in the mobile app, similar to Bilibili on PC.
 - Opens the category menu through `bilibili://main/top_category`.
 - Sets Portuguese as the preferred subtitle language when Bilibili does not provide a preferred language.
-- Logs subtitle and translation diagnostics with the `BilibiliMod` logcat tag.
+- Logs subtitle and translation diagnostics with the `BiliBiliMod` logcat tag.
 - Translates video titles in category and author-space pages through Bilibili's internal `TranslationMoss` endpoint.
 
 ## Usage
